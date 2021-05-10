@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewActivity">
+
+    <ImageView
+        android:id="@+id/Image1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/java_logo"
+        android:padding="16dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:id="@+id/Name1"
+        app:layout_constraintTop_toBottomOf="@id/Image1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:text="Java"
+        android:layout_below="@id/Image1"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <ImageView
+        android:id="@+id/Image2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:padding="16dp"
+        android:src="@drawable/js_logo"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/Name1"/>
+
+    <TextView
+        android:id="@+id/Name2"
+        app:layout_constraintTop_toBottomOf="@id/Image2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:text="Javascript"
+        android:layout_below="@id/Image2"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <ImageView
+        android:id="@+id/Image3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:padding="16dp"
+        android:src="@drawable/kotlin_logo"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/Name2"/>
+
+    <TextView
+        android:id="@+id/Name3"
+        app:layout_constraintTop_toBottomOf="@id/Image2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:text="Kotlin"
+        android:layout_below="@id/Image3"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <ImageView
+        android:id="@+id/Image4"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:padding="16dp"
+        android:src="@drawable/php_logo"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/Name3"/>
+
+    <TextView
+        android:id="@+id/Name4"
+        app:layout_constraintTop_toBottomOf="@id/Image4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:text="PHP"
+        android:layout_below="@id/Image4"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <ImageView
+        android:id="@+id/Image5"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:padding="16dp"
+        android:src="@drawable/python_logo"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/Name4"/>
+
+    <TextView
+        android:id="@+id/Name5"
+        app:layout_constraintTop_toBottomOf="@id/Image2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:text="Python"
+        android:layout_below="@id/Image5"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+</RelativeLayout>
